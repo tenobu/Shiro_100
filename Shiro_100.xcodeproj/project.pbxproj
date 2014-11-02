@@ -14,6 +14,9 @@
 		9833BB7E1A0610AB004E22E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833BB7D1A0610AB004E22E5 /* Images.xcassets */; };
 		9833BB811A0610AB004E22E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9833BB7F1A0610AB004E22E5 /* LaunchScreen.xib */; };
 		9833BB8D1A0610AB004E22E5 /* Shiro_100Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB8C1A0610AB004E22E5 /* Shiro_100Tests.m */; };
+		9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB9F1A0615E0004E22E5 /* MapViewController.m */; };
+		9833BBA31A061EEF004E22E5 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BBA21A061EEF004E22E5 /* RankingViewController.m */; };
+		9833BBA51A06347A004E22E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9833BBA41A06347A004E22E5 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		9833BB861A0610AB004E22E5 /* Shiro_100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Shiro_100Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9833BB8B1A0610AB004E22E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9833BB8C1A0610AB004E22E5 /* Shiro_100Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Shiro_100Tests.m; sourceTree = "<group>"; };
+		9833BB9E1A0615E0004E22E5 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		9833BB9F1A0615E0004E22E5 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9833BBA11A061EEF004E22E5 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		9833BBA21A061EEF004E22E5 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		9833BBA41A06347A004E22E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9833BBA51A06347A004E22E5 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 		9833BB641A0610AA004E22E5 = {
 			isa = PBXGroup;
 			children = (
+				9833BBA41A06347A004E22E5 /* MapKit.framework */,
 				9833BB6F1A0610AA004E22E5 /* Shiro_100 */,
 				9833BB891A0610AB004E22E5 /* Shiro_100Tests */,
 				9833BB6E1A0610AA004E22E5 /* Products */,
@@ -81,13 +91,17 @@
 		9833BB6F1A0610AA004E22E5 /* Shiro_100 */ = {
 			isa = PBXGroup;
 			children = (
+				9833BB7F1A0610AB004E22E5 /* LaunchScreen.xib */,
+				9833BB7A1A0610AB004E22E5 /* Main.storyboard */,
 				9833BB741A0610AB004E22E5 /* AppDelegate.h */,
 				9833BB751A0610AB004E22E5 /* AppDelegate.m */,
+				9833BBA11A061EEF004E22E5 /* RankingViewController.h */,
+				9833BBA21A061EEF004E22E5 /* RankingViewController.m */,
+				9833BB9E1A0615E0004E22E5 /* MapViewController.h */,
+				9833BB9F1A0615E0004E22E5 /* MapViewController.m */,
 				9833BB771A0610AB004E22E5 /* ViewController.h */,
 				9833BB781A0610AB004E22E5 /* ViewController.m */,
-				9833BB7A1A0610AB004E22E5 /* Main.storyboard */,
 				9833BB7D1A0610AB004E22E5 /* Images.xcassets */,
-				9833BB7F1A0610AB004E22E5 /* LaunchScreen.xib */,
 				9833BB701A0610AA004E22E5 /* Supporting Files */,
 			);
 			path = Shiro_100;
@@ -222,6 +236,8 @@
 				9833BB791A0610AB004E22E5 /* ViewController.m in Sources */,
 				9833BB761A0610AB004E22E5 /* AppDelegate.m in Sources */,
 				9833BB731A0610AB004E22E5 /* main.m in Sources */,
+				9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */,
+				9833BBA31A061EEF004E22E5 /* RankingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
