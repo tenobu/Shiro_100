@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CameraViewController.h
 //  Shiro_100
 //
 //  Created by 寺内 信夫 on 2014/11/02.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CameraViewController : UIViewController < UIImagePickerControllerDelegate, UIDocumentInteractionControllerDelegate >
 
 @end
-

@@ -4,51 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
-        <!--Ranking-->
-        <scene sceneID="CHg-bU-O9I">
-            <objects>
-                <viewController id="1mQ-Mj-z1V" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ibs-Fs-JWs"/>
-                        <viewControllerLayoutGuide type="bottom" id="yfH-7v-oic"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Esn-Dc-hkQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="MRp-Cn-ykP">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="SNa-GT-mff">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SNa-GT-mff" id="2dN-XE-gSX">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5E3-7c-sXs">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5E3-7c-sXs" id="RNK-XC-cTR">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="MRp-Cn-ykP" firstAttribute="leading" secondItem="Esn-Dc-hkQ" secondAttribute="leading" id="Ko5-JS-AhS"/>
-                            <constraint firstAttribute="trailing" secondItem="MRp-Cn-ykP" secondAttribute="trailing" id="oXV-FW-ZXc"/>
-                            <constraint firstItem="MRp-Cn-ykP" firstAttribute="top" secondItem="Esn-Dc-hkQ" secondAttribute="top" id="vNs-Xe-Str"/>
-                            <constraint firstAttribute="bottom" secondItem="MRp-Cn-ykP" secondAttribute="bottom" id="wrl-Ik-c4j"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Ranking" image="Ranking" id="x94-if-xDK"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vMm-5W-5QQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="66" y="892"/>
-        </scene>
         <!--Root View Controller-->
         <scene sceneID="0fE-Ax-Lxj">
             <objects>
@@ -74,7 +29,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DmS-NE-aKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="898" y="1612"/>
+            <point key="canvasLocation" x="816" y="917"/>
         </scene>
         <!--Ranking-->
         <scene sceneID="me1-cH-44u">
@@ -92,7 +47,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R40-ns-obv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="78" y="1612"/>
+            <point key="canvasLocation" x="66" y="917"/>
         </scene>
         <!--Map-->
         <scene sceneID="6kg-f8-6rP">
@@ -118,13 +73,24 @@
                                     <action selector="button_TokusimaJyou_Action:" destination="0xE-nP-3Nz" eventType="touchUpInside" id="Hjf-bL-GuE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccK-qy-YUG">
+                                <rect key="frame" x="483" y="28" width="101" height="51"/>
+                                <state key="normal" image="Button_Camera.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y0g-ji-Ubm" kind="modal" id="nLs-wn-vfN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="B3h-En-cIf" firstAttribute="leading" secondItem="edC-0d-gNI" secondAttribute="leading" id="MoP-Iu-YAH"/>
                             <constraint firstAttribute="bottom" secondItem="B3h-En-cIf" secondAttribute="bottom" id="ND6-sv-rzz"/>
                             <constraint firstItem="B3h-En-cIf" firstAttribute="top" secondItem="edC-0d-gNI" secondAttribute="top" id="eCz-0l-6YC"/>
+                            <constraint firstAttribute="trailing" secondItem="ccK-qy-YUG" secondAttribute="trailing" constant="16" id="fe9-d1-T7M"/>
                             <constraint firstAttribute="trailing" secondItem="B3h-En-cIf" secondAttribute="trailing" id="fqM-bv-S0O"/>
+                            <constraint firstItem="ccK-qy-YUG" firstAttribute="top" secondItem="t5Q-8z-eNe" secondAttribute="bottom" constant="8" id="uGC-09-dD7"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="Map" id="Ejg-d2-eeZ"/>
@@ -136,10 +102,64 @@
             </objects>
             <point key="canvasLocation" x="66" y="230"/>
         </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="WMl-mW-tNY">
+            <objects>
+                <viewController id="y0g-ji-Ubm" customClass="CameraViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6kl-RH-rtp"/>
+                        <viewControllerLayoutGuide type="bottom" id="0ah-s3-M4B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="neO-dU-MOj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rGn-Py-VXe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkG-e1-Zep">
+                                <rect key="frame" x="16" y="28" width="54" height="30"/>
+                                <state key="normal" title="Caption">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ymy-Og-N3m">
+                                <rect key="frame" x="27" y="550" width="83" height="30"/>
+                                <state key="normal" title="Registration">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button_Regist_Action:" destination="y0g-ji-Ubm" eventType="touchUpInside" id="Kax-Cg-DUs"/>
+                                    <segue destination="K1a-Nh-6VM" kind="modal" id="Gcc-EL-xe6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UkG-e1-Zep" firstAttribute="top" secondItem="6kl-RH-rtp" secondAttribute="bottom" constant="8" id="10z-ad-NYb"/>
+                            <constraint firstAttribute="trailing" secondItem="rGn-Py-VXe" secondAttribute="trailing" id="4Xw-Ky-8uS"/>
+                            <constraint firstItem="0ah-s3-M4B" firstAttribute="top" secondItem="rGn-Py-VXe" secondAttribute="bottom" id="5Rq-yk-SNg"/>
+                            <constraint firstItem="rGn-Py-VXe" firstAttribute="top" secondItem="neO-dU-MOj" secondAttribute="top" id="Bj5-0p-l39"/>
+                            <constraint firstItem="UkG-e1-Zep" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" constant="16" id="SaR-Hc-XU0"/>
+                            <constraint firstItem="0ah-s3-M4B" firstAttribute="top" secondItem="Ymy-Og-N3m" secondAttribute="bottom" constant="20" id="ku2-4z-lWj"/>
+                            <constraint firstItem="rGn-Py-VXe" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" id="leX-E8-l1d"/>
+                            <constraint firstItem="Ymy-Og-N3m" firstAttribute="leading" secondItem="neO-dU-MOj" secondAttribute="leading" constant="27" id="nAQ-QO-IvT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="r2v-7i-6Yw"/>
+                    <connections>
+                        <outlet property="imageView" destination="rGn-Py-VXe" id="Mnw-8P-n0h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VB1-jv-4sT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816" y="230"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="66O-4d-sCK">
             <objects>
                 <tabBarController id="K1a-Nh-6VM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="37X-Es-QiI"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="5iL-W3-Yoy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -153,10 +173,11 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lF-GW-Ebg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-852" y="539"/>
+            <point key="canvasLocation" x="-746" y="917"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Button_Camera.png" width="101" height="51"/>
         <image name="Map" width="40" height="40"/>
         <image name="Ranking" width="40" height="40"/>
     </resources>

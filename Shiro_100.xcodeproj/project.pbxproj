@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9833BB731A0610AB004E22E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB721A0610AB004E22E5 /* main.m */; };
 		9833BB761A0610AB004E22E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB751A0610AB004E22E5 /* AppDelegate.m */; };
-		9833BB791A0610AB004E22E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB781A0610AB004E22E5 /* ViewController.m */; };
 		9833BB7C1A0610AB004E22E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9833BB7A1A0610AB004E22E5 /* Main.storyboard */; };
 		9833BB7E1A0610AB004E22E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833BB7D1A0610AB004E22E5 /* Images.xcassets */; };
 		9833BB811A0610AB004E22E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9833BB7F1A0610AB004E22E5 /* LaunchScreen.xib */; };
@@ -17,6 +16,21 @@
 		9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB9F1A0615E0004E22E5 /* MapViewController.m */; };
 		9833BBA31A061EEF004E22E5 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BBA21A061EEF004E22E5 /* RankingViewController.m */; };
 		9833BBA51A06347A004E22E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9833BBA41A06347A004E22E5 /* MapKit.framework */; };
+		9833BBB51A067116004E22E5 /* Button_Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA71A067116004E22E5 /* Button_Camera.png */; };
+		9833BBB61A067116004E22E5 /* camera59.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA81A067116004E22E5 /* camera59.png */; };
+		9833BBB71A067116004E22E5 /* hata.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA91A067116004E22E5 /* hata.png */; };
+		9833BBB81A067116004E22E5 /* little25_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAA1A067116004E22E5 /* little25_2.png */; };
+		9833BBB91A067116004E22E5 /* machine2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAB1A067116004E22E5 /* machine2.png */; };
+		9833BBBA1A067116004E22E5 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAC1A067116004E22E5 /* maps.png */; };
+		9833BBBB1A067116004E22E5 /* movie42.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAD1A067116004E22E5 /* movie42.png */; };
+		9833BBBC1A067116004E22E5 /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAE1A067116004E22E5 /* play2.png */; };
+		9833BBBD1A067116004E22E5 /* Setting_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAF1A067116004E22E5 /* Setting_40x40.png */; };
+		9833BBBE1A067116004E22E5 /* silhouette4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBB01A067116004E22E5 /* silhouette4.png */; };
+		9833BBBF1A067116004E22E5 /* silhouette5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBB11A067116004E22E5 /* silhouette5.png */; };
+		9833BBC01A067116004E22E5 /* Slideshow_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBB21A067116004E22E5 /* Slideshow_40x40.png */; };
+		9833BBC11A067116004E22E5 /* tokushima3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBB31A067116004E22E5 /* tokushima3.png */; };
+		9833BBC21A067116004E22E5 /* Tokushima_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBB41A067116004E22E5 /* Tokushima_40x40.png */; };
+		9833BBC81A067735004E22E5 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BBC71A067735004E22E5 /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +49,6 @@
 		9833BB721A0610AB004E22E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9833BB741A0610AB004E22E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9833BB751A0610AB004E22E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9833BB771A0610AB004E22E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9833BB781A0610AB004E22E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9833BB7B1A0610AB004E22E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9833BB7D1A0610AB004E22E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9833BB801A0610AB004E22E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -48,6 +60,22 @@
 		9833BBA11A061EEF004E22E5 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
 		9833BBA21A061EEF004E22E5 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
 		9833BBA41A06347A004E22E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9833BBA71A067116004E22E5 /* Button_Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Camera.png; sourceTree = "<group>"; };
+		9833BBA81A067116004E22E5 /* camera59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera59.png; sourceTree = "<group>"; };
+		9833BBA91A067116004E22E5 /* hata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hata.png; sourceTree = "<group>"; };
+		9833BBAA1A067116004E22E5 /* little25_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = little25_2.png; sourceTree = "<group>"; };
+		9833BBAB1A067116004E22E5 /* machine2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine2.png; sourceTree = "<group>"; };
+		9833BBAC1A067116004E22E5 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		9833BBAD1A067116004E22E5 /* movie42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie42.png; sourceTree = "<group>"; };
+		9833BBAE1A067116004E22E5 /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+		9833BBAF1A067116004E22E5 /* Setting_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting_40x40.png; sourceTree = "<group>"; };
+		9833BBB01A067116004E22E5 /* silhouette4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silhouette4.png; sourceTree = "<group>"; };
+		9833BBB11A067116004E22E5 /* silhouette5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silhouette5.png; sourceTree = "<group>"; };
+		9833BBB21A067116004E22E5 /* Slideshow_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slideshow_40x40.png; sourceTree = "<group>"; };
+		9833BBB31A067116004E22E5 /* tokushima3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokushima3.png; sourceTree = "<group>"; };
+		9833BBB41A067116004E22E5 /* Tokushima_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tokushima_40x40.png; sourceTree = "<group>"; };
+		9833BBC61A067735004E22E5 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		9833BBC71A067735004E22E5 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +127,10 @@
 				9833BBA21A061EEF004E22E5 /* RankingViewController.m */,
 				9833BB9E1A0615E0004E22E5 /* MapViewController.h */,
 				9833BB9F1A0615E0004E22E5 /* MapViewController.m */,
-				9833BB771A0610AB004E22E5 /* ViewController.h */,
-				9833BB781A0610AB004E22E5 /* ViewController.m */,
+				9833BBC61A067735004E22E5 /* CameraViewController.h */,
+				9833BBC71A067735004E22E5 /* CameraViewController.m */,
 				9833BB7D1A0610AB004E22E5 /* Images.xcassets */,
+				9833BBA61A067116004E22E5 /* Images */,
 				9833BB701A0610AA004E22E5 /* Supporting Files */,
 			);
 			path = Shiro_100;
@@ -131,6 +160,27 @@
 				9833BB8B1A0610AB004E22E5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9833BBA61A067116004E22E5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9833BBA71A067116004E22E5 /* Button_Camera.png */,
+				9833BBA81A067116004E22E5 /* camera59.png */,
+				9833BBA91A067116004E22E5 /* hata.png */,
+				9833BBAA1A067116004E22E5 /* little25_2.png */,
+				9833BBAB1A067116004E22E5 /* machine2.png */,
+				9833BBAC1A067116004E22E5 /* maps.png */,
+				9833BBAD1A067116004E22E5 /* movie42.png */,
+				9833BBAE1A067116004E22E5 /* play2.png */,
+				9833BBAF1A067116004E22E5 /* Setting_40x40.png */,
+				9833BBB01A067116004E22E5 /* silhouette4.png */,
+				9833BBB11A067116004E22E5 /* silhouette5.png */,
+				9833BBB21A067116004E22E5 /* Slideshow_40x40.png */,
+				9833BBB31A067116004E22E5 /* tokushima3.png */,
+				9833BBB41A067116004E22E5 /* Tokushima_40x40.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +263,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9833BBBE1A067116004E22E5 /* silhouette4.png in Resources */,
+				9833BBBB1A067116004E22E5 /* movie42.png in Resources */,
+				9833BBBD1A067116004E22E5 /* Setting_40x40.png in Resources */,
+				9833BBB51A067116004E22E5 /* Button_Camera.png in Resources */,
+				9833BBB61A067116004E22E5 /* camera59.png in Resources */,
+				9833BBBA1A067116004E22E5 /* maps.png in Resources */,
+				9833BBBC1A067116004E22E5 /* play2.png in Resources */,
 				9833BB7C1A0610AB004E22E5 /* Main.storyboard in Resources */,
+				9833BBB81A067116004E22E5 /* little25_2.png in Resources */,
+				9833BBC11A067116004E22E5 /* tokushima3.png in Resources */,
+				9833BBC01A067116004E22E5 /* Slideshow_40x40.png in Resources */,
+				9833BBBF1A067116004E22E5 /* silhouette5.png in Resources */,
 				9833BB811A0610AB004E22E5 /* LaunchScreen.xib in Resources */,
 				9833BB7E1A0610AB004E22E5 /* Images.xcassets in Resources */,
+				9833BBC21A067116004E22E5 /* Tokushima_40x40.png in Resources */,
+				9833BBB91A067116004E22E5 /* machine2.png in Resources */,
+				9833BBB71A067116004E22E5 /* hata.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9833BB791A0610AB004E22E5 /* ViewController.m in Sources */,
 				9833BB761A0610AB004E22E5 /* AppDelegate.m in Sources */,
 				9833BB731A0610AB004E22E5 /* main.m in Sources */,
 				9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */,
 				9833BBA31A061EEF004E22E5 /* RankingViewController.m in Sources */,
+				9833BBC81A067735004E22E5 /* CameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 
 #import "AppDelegate.h"
+#import "CameraViewController.h"
 
 @interface MapViewController ()
 {
