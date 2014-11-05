@@ -53,7 +53,7 @@
 	}];
 	
 	[ac addAction: cancel];
-	
+
 	NSMutableArray *actionArray = [@[] mutableCopy]; //どれをタップしたか記憶のため
 	for ( int i = 0; i < 14 ; i ++ ) {
 		
