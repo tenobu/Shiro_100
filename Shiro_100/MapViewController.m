@@ -10,6 +10,7 @@
 
 #import "AppDelegate.h"
 #import "CameraViewController.h"
+#import "InstagramKit.h"
 
 @interface MapViewController ()
 {

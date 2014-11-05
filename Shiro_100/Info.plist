@@ -7,7 +7,7 @@
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>I have learned more on stack overflow than anything else</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>ja_JP</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -47,5 +47,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>instagramkit</string>
+			</array>
+		</dict>
+	</array>
+	<key>InstagramKitAppClientId</key>
+	<string>6cf2fe852f4b4b7898d5f36cb3b3ccad</string>
+	<key>InstagramKitAppRedirectURL</key>
+	<string>http://localhost/</string>
+	<key>InstagramKitBaseUrl</key>
+	<string>https://api.instagram.com/v1/</string>
+	<key>InstagramKitAuthorizationUrl</key>
+	<string>https://api.instagram.com/oauth/authorize/</string>
 </dict>
 </plist>
