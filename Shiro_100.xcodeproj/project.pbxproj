@@ -40,6 +40,13 @@
 		985355FC1A08C62C001FB747 /* Japanese_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 985355FB1A08C62C001FB747 /* Japanese_40x40.png */; };
 		985356001A08C777001FB747 /* Japanese_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 985355FF1A08C776001FB747 /* Japanese_color.png */; };
 		985356041A08F95F001FB747 /* JapanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 985356031A08F95F001FB747 /* JapanViewController.m */; };
+		9853560B1A09EB36001FB747 /* Yajiri_40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853560A1A09EB36001FB747 /* Yajiri_40x40.png */; };
+		9853560D1A0A06BD001FB747 /* Yajiri_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853560C1A0A06BD001FB747 /* Yajiri_80x80.png */; };
+		985356101A0A674E001FB747 /* Mikata_142x127.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853560E1A0A674E001FB747 /* Mikata_142x127.png */; };
+		985356111A0A674E001FB747 /* Teki_142x127.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853560F1A0A674E001FB747 /* Teki_142x127.png */; };
+		985356141A0A6D3C001FB747 /* Japanese_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356121A0A6D3C001FB747 /* Japanese_80x80.png */; };
+		985356151A0A6D3C001FB747 /* Japanese_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356131A0A6D3C001FB747 /* Japanese_160x160.png */; };
+		985356171A0A6E74001FB747 /* Yajiri_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356161A0A6E74001FB747 /* Yajiri_160x160.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +108,13 @@
 		985355FF1A08C776001FB747 /* Japanese_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_color.png; sourceTree = "<group>"; };
 		985356021A08F95F001FB747 /* JapanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JapanViewController.h; sourceTree = "<group>"; };
 		985356031A08F95F001FB747 /* JapanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JapanViewController.m; sourceTree = "<group>"; };
+		9853560A1A09EB36001FB747 /* Yajiri_40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_40x40.png; sourceTree = "<group>"; };
+		9853560C1A0A06BD001FB747 /* Yajiri_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_80x80.png; sourceTree = "<group>"; };
+		9853560E1A0A674E001FB747 /* Mikata_142x127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mikata_142x127.png; sourceTree = "<group>"; };
+		9853560F1A0A674E001FB747 /* Teki_142x127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teki_142x127.png; sourceTree = "<group>"; };
+		985356121A0A6D3C001FB747 /* Japanese_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_80x80.png; sourceTree = "<group>"; };
+		985356131A0A6D3C001FB747 /* Japanese_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_160x160.png; sourceTree = "<group>"; };
+		985356161A0A6E74001FB747 /* Yajiri_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_160x160.png; sourceTree = "<group>"; };
 		F6E93AB31ED05D206F808B79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,8 +216,15 @@
 		9833BBA61A067116004E22E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				9853560E1A0A674E001FB747 /* Mikata_142x127.png */,
+				9853560F1A0A674E001FB747 /* Teki_142x127.png */,
+				9853560A1A09EB36001FB747 /* Yajiri_40x40.png */,
+				9853560C1A0A06BD001FB747 /* Yajiri_80x80.png */,
+				985356161A0A6E74001FB747 /* Yajiri_160x160.png */,
 				985355FF1A08C776001FB747 /* Japanese_color.png */,
 				985355FB1A08C62C001FB747 /* Japanese_40x40.png */,
+				985356121A0A6D3C001FB747 /* Japanese_80x80.png */,
+				985356131A0A6D3C001FB747 /* Japanese_160x160.png */,
 				9833BBA71A067116004E22E5 /* Button_Camera.png */,
 				9833BBA81A067116004E22E5 /* camera59.png */,
 				9833BBA91A067116004E22E5 /* hata.png */,
@@ -375,13 +396,19 @@
 			files = (
 				9833BBBE1A067116004E22E5 /* silhouette4.png in Resources */,
 				9833BBBB1A067116004E22E5 /* movie42.png in Resources */,
+				9853560B1A09EB36001FB747 /* Yajiri_40x40.png in Resources */,
 				9833BBBD1A067116004E22E5 /* Setting_40x40.png in Resources */,
 				9833BBB51A067116004E22E5 /* Button_Camera.png in Resources */,
 				9833BBB61A067116004E22E5 /* camera59.png in Resources */,
 				9833BBBA1A067116004E22E5 /* maps.png in Resources */,
+				985356151A0A6D3C001FB747 /* Japanese_160x160.png in Resources */,
+				985356171A0A6E74001FB747 /* Yajiri_160x160.png in Resources */,
 				9833BBBC1A067116004E22E5 /* play2.png in Resources */,
+				985356111A0A674E001FB747 /* Teki_142x127.png in Resources */,
 				9833BB7C1A0610AB004E22E5 /* Main.storyboard in Resources */,
 				9833BBB81A067116004E22E5 /* little25_2.png in Resources */,
+				985356141A0A6D3C001FB747 /* Japanese_80x80.png in Resources */,
+				985356101A0A674E001FB747 /* Mikata_142x127.png in Resources */,
 				9833BBC11A067116004E22E5 /* tokushima3.png in Resources */,
 				9833BBC01A067116004E22E5 /* Slideshow_40x40.png in Resources */,
 				9833BBBF1A067116004E22E5 /* silhouette5.png in Resources */,
@@ -391,6 +418,7 @@
 				985355FC1A08C62C001FB747 /* Japanese_40x40.png in Resources */,
 				9833BBB91A067116004E22E5 /* machine2.png in Resources */,
 				985356001A08C777001FB747 /* Japanese_color.png in Resources */,
+				9853560D1A0A06BD001FB747 /* Yajiri_80x80.png in Resources */,
 				9833BBB71A067116004E22E5 /* hata.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

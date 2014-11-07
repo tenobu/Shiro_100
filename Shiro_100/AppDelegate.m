@@ -12,8 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+
 	// Override point for customization after application launch.
+
+	[self shiroData];
+	
 	return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -41,6 +46,39 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)shiroData
+{
+
+	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+	
+	self.string_MineShiro = [ud objectForKey: @"mine_shiro"];
+	
+	if ( self.string_MineShiro == nil ) {
+		
+		self.string_MineShiro = @"";
+		
+	}
+	
+	self.string_TekiShiro = [ud objectForKey: @"tuki_shiro"];
+	
+	if ( self.string_TekiShiro == nil ) {
+		
+		self.string_TekiShiro = @"";
+		
+	}
+	
+}
+
+- (void)setShiroData
+{
+
+	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+
+	[ud setObject: self.string_MineShiro forKey: @"mine_shiro"];
+	[ud setObject: self.string_TekiShiro forKey: @"tuki_shiro"];
+	
 }
 
 @end

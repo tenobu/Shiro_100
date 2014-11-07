@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property NSString *string_MineShiro;
+@property NSString *string_TekiShiro;
+
+- (void)setShiroData;
 
 @end
 
