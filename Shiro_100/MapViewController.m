@@ -23,8 +23,7 @@
 	
 	CLLocationCoordinate2D coordinate;
 	
-	CLLocationDegrees   latitude , latitude_Old;
-	CLLocationDegrees   longitude, longitude_Old;
+	CLLocationDegrees   latitude, longitude;
 	CLLocationDirection heading;
 
 }
@@ -129,8 +128,6 @@
 // GPS初期化
 - (void)initLocationManager
 {
-	
-	latitude_Old = longitude_Old = 9999;
 	
 	locationManager = [[CLLocationManager alloc] init];
 	
@@ -446,18 +443,6 @@ didChangeAuthorizationStatus: (CLAuthorizationStatus)status
 {
 	
 	heading = newHeading.trueHeading;
-	
-}
-
-- (IBAction)button_TokusimaJyou_Action: (id)sender
-{
-	
-	MKCoordinateRegion region;
-	region.span   = MKCoordinateSpanMake      ( 0.005, 0.005 );
-	region.center = CLLocationCoordinate2DMake( 34.07511029, 134.556 );
-	
-	[self.mapView setRegion: region
-				   animated: YES];
 	
 }
 

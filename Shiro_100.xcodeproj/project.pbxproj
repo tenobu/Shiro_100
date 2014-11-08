@@ -17,7 +17,6 @@
 		9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BB9F1A0615E0004E22E5 /* MapViewController.m */; };
 		9833BBA31A061EEF004E22E5 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9833BBA21A061EEF004E22E5 /* RankingViewController.m */; };
 		9833BBA51A06347A004E22E5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9833BBA41A06347A004E22E5 /* MapKit.framework */; };
-		9833BBB51A067116004E22E5 /* Button_Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA71A067116004E22E5 /* Button_Camera.png */; };
 		9833BBB61A067116004E22E5 /* camera59.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA81A067116004E22E5 /* camera59.png */; };
 		9833BBB71A067116004E22E5 /* hata.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBA91A067116004E22E5 /* hata.png */; };
 		9833BBB81A067116004E22E5 /* little25_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9833BBAA1A067116004E22E5 /* little25_2.png */; };
@@ -47,6 +46,15 @@
 		985356141A0A6D3C001FB747 /* Japanese_80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356121A0A6D3C001FB747 /* Japanese_80x80.png */; };
 		985356151A0A6D3C001FB747 /* Japanese_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356131A0A6D3C001FB747 /* Japanese_160x160.png */; };
 		985356171A0A6E74001FB747 /* Yajiri_160x160.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356161A0A6E74001FB747 /* Yajiri_160x160.png */; };
+		985356191A0C8BC7001FB747 /* Sikan_200x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356181A0C8BC7001FB747 /* Sikan_200x150.png */; };
+		9853561D1A0C8FC2001FB747 /* Sikan_150x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853561C1A0C8FC2001FB747 /* Sikan_150x120.png */; };
+		9853561F1A0C99DC001FB747 /* Button_Camera_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9853561E1A0C99DC001FB747 /* Button_Camera_100x50.png */; };
+		985356211A0C9B87001FB747 /* Button_Album_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356201A0C9B87001FB747 /* Button_Album_100x50.png */; };
+		985356231A0CA34E001FB747 /* Button_Modoru_100x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 985356221A0CA34E001FB747 /* Button_Modoru_100x50.png */; };
+		985356251A0CF30C001FB747 /* Shiro_100_問題.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 985356241A0CF30C001FB747 /* Shiro_100_問題.rtf */; };
+		985356291A0CF9B0001FB747 /* Shiro_100_Framework.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 985356281A0CF9B0001FB747 /* Shiro_100_Framework.rtf */; };
+		9853562C1A0D2491001FB747 /* Camera2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9853562B1A0D2491001FB747 /* Camera2ViewController.m */; };
+		9853562F1A0D2D0A001FB747 /* CustomCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9853562E1A0D2D0A001FB747 /* CustomCamera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +86,6 @@
 		9833BBA11A061EEF004E22E5 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
 		9833BBA21A061EEF004E22E5 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
 		9833BBA41A06347A004E22E5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		9833BBA71A067116004E22E5 /* Button_Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Camera.png; sourceTree = "<group>"; };
 		9833BBA81A067116004E22E5 /* camera59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera59.png; sourceTree = "<group>"; };
 		9833BBA91A067116004E22E5 /* hata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hata.png; sourceTree = "<group>"; };
 		9833BBAA1A067116004E22E5 /* little25_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = little25_2.png; sourceTree = "<group>"; };
@@ -115,6 +122,17 @@
 		985356121A0A6D3C001FB747 /* Japanese_80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_80x80.png; sourceTree = "<group>"; };
 		985356131A0A6D3C001FB747 /* Japanese_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japanese_160x160.png; sourceTree = "<group>"; };
 		985356161A0A6E74001FB747 /* Yajiri_160x160.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yajiri_160x160.png; sourceTree = "<group>"; };
+		985356181A0C8BC7001FB747 /* Sikan_200x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sikan_200x150.png; sourceTree = "<group>"; };
+		9853561C1A0C8FC2001FB747 /* Sikan_150x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sikan_150x120.png; sourceTree = "<group>"; };
+		9853561E1A0C99DC001FB747 /* Button_Camera_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Camera_100x50.png; sourceTree = "<group>"; };
+		985356201A0C9B87001FB747 /* Button_Album_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Album_100x50.png; sourceTree = "<group>"; };
+		985356221A0CA34E001FB747 /* Button_Modoru_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Modoru_100x50.png; sourceTree = "<group>"; };
+		985356241A0CF30C001FB747 /* Shiro_100_問題.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Shiro_100_問題.rtf"; sourceTree = "<group>"; };
+		985356281A0CF9B0001FB747 /* Shiro_100_Framework.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Shiro_100_Framework.rtf; sourceTree = "<group>"; };
+		9853562A1A0D2491001FB747 /* Camera2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera2ViewController.h; sourceTree = "<group>"; };
+		9853562B1A0D2491001FB747 /* Camera2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera2ViewController.m; sourceTree = "<group>"; };
+		9853562D1A0D2D0A001FB747 /* CustomCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCamera.h; sourceTree = "<group>"; };
+		9853562E1A0D2D0A001FB747 /* CustomCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCamera.m; sourceTree = "<group>"; };
 		F6E93AB31ED05D206F808B79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +170,8 @@
 			children = (
 				9833BBA41A06347A004E22E5 /* MapKit.framework */,
 				9833BB6F1A0610AA004E22E5 /* Shiro_100 */,
+				985356241A0CF30C001FB747 /* Shiro_100_問題.rtf */,
+				985356281A0CF9B0001FB747 /* Shiro_100_Framework.rtf */,
 				9833BB891A0610AB004E22E5 /* Shiro_100Tests */,
 				9833BB6E1A0610AA004E22E5 /* Products */,
 				24ED7D584216B7549C3E5692 /* Pods */,
@@ -216,6 +236,11 @@
 		9833BBA61A067116004E22E5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				985356221A0CA34E001FB747 /* Button_Modoru_100x50.png */,
+				985356201A0C9B87001FB747 /* Button_Album_100x50.png */,
+				9853561E1A0C99DC001FB747 /* Button_Camera_100x50.png */,
+				9853561C1A0C8FC2001FB747 /* Sikan_150x120.png */,
+				985356181A0C8BC7001FB747 /* Sikan_200x150.png */,
 				9853560E1A0A674E001FB747 /* Mikata_142x127.png */,
 				9853560F1A0A674E001FB747 /* Teki_142x127.png */,
 				9853560A1A09EB36001FB747 /* Yajiri_40x40.png */,
@@ -225,7 +250,6 @@
 				985355FB1A08C62C001FB747 /* Japanese_40x40.png */,
 				985356121A0A6D3C001FB747 /* Japanese_80x80.png */,
 				985356131A0A6D3C001FB747 /* Japanese_160x160.png */,
-				9833BBA71A067116004E22E5 /* Button_Camera.png */,
 				9833BBA81A067116004E22E5 /* camera59.png */,
 				9833BBA91A067116004E22E5 /* hata.png */,
 				9833BBAA1A067116004E22E5 /* little25_2.png */,
@@ -284,6 +308,10 @@
 				9833BB9F1A0615E0004E22E5 /* MapViewController.m */,
 				9833BBC61A067735004E22E5 /* CameraViewController.h */,
 				9833BBC71A067735004E22E5 /* CameraViewController.m */,
+				9853562A1A0D2491001FB747 /* Camera2ViewController.h */,
+				9853562B1A0D2491001FB747 /* Camera2ViewController.m */,
+				9853562D1A0D2D0A001FB747 /* CustomCamera.h */,
+				9853562E1A0D2D0A001FB747 /* CustomCamera.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -397,23 +425,29 @@
 				9833BBBE1A067116004E22E5 /* silhouette4.png in Resources */,
 				9833BBBB1A067116004E22E5 /* movie42.png in Resources */,
 				9853560B1A09EB36001FB747 /* Yajiri_40x40.png in Resources */,
+				985356231A0CA34E001FB747 /* Button_Modoru_100x50.png in Resources */,
 				9833BBBD1A067116004E22E5 /* Setting_40x40.png in Resources */,
-				9833BBB51A067116004E22E5 /* Button_Camera.png in Resources */,
 				9833BBB61A067116004E22E5 /* camera59.png in Resources */,
 				9833BBBA1A067116004E22E5 /* maps.png in Resources */,
 				985356151A0A6D3C001FB747 /* Japanese_160x160.png in Resources */,
 				985356171A0A6E74001FB747 /* Yajiri_160x160.png in Resources */,
 				9833BBBC1A067116004E22E5 /* play2.png in Resources */,
 				985356111A0A674E001FB747 /* Teki_142x127.png in Resources */,
+				985356211A0C9B87001FB747 /* Button_Album_100x50.png in Resources */,
 				9833BB7C1A0610AB004E22E5 /* Main.storyboard in Resources */,
 				9833BBB81A067116004E22E5 /* little25_2.png in Resources */,
 				985356141A0A6D3C001FB747 /* Japanese_80x80.png in Resources */,
 				985356101A0A674E001FB747 /* Mikata_142x127.png in Resources */,
 				9833BBC11A067116004E22E5 /* tokushima3.png in Resources */,
+				9853561D1A0C8FC2001FB747 /* Sikan_150x120.png in Resources */,
+				985356251A0CF30C001FB747 /* Shiro_100_問題.rtf in Resources */,
+				985356291A0CF9B0001FB747 /* Shiro_100_Framework.rtf in Resources */,
 				9833BBC01A067116004E22E5 /* Slideshow_40x40.png in Resources */,
+				9853561F1A0C99DC001FB747 /* Button_Camera_100x50.png in Resources */,
 				9833BBBF1A067116004E22E5 /* silhouette5.png in Resources */,
 				9833BB811A0610AB004E22E5 /* LaunchScreen.xib in Resources */,
 				9833BB7E1A0610AB004E22E5 /* Images.xcassets in Resources */,
+				985356191A0C8BC7001FB747 /* Sikan_200x150.png in Resources */,
 				9833BBC21A067116004E22E5 /* Tokushima_40x40.png in Resources */,
 				985355FC1A08C62C001FB747 /* Japanese_40x40.png in Resources */,
 				9833BBB91A067116004E22E5 /* machine2.png in Resources */,
@@ -470,6 +504,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9853562C1A0D2491001FB747 /* Camera2ViewController.m in Sources */,
+				9853562F1A0D2D0A001FB747 /* CustomCamera.m in Sources */,
 				9833BB761A0610AB004E22E5 /* AppDelegate.m in Sources */,
 				9833BB731A0610AB004E22E5 /* main.m in Sources */,
 				9833BBA01A0615E0004E22E5 /* MapViewController.m in Sources */,

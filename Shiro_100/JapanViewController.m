@@ -17,18 +17,16 @@
 
 	AppDelegate *app;
 	
-	BOOL bool_Mine;
+	BOOL bool_Shikan;
 	NSInteger integer_BlockNo;
 	
 }
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView_Japan;
 
-@property (weak, nonatomic) IBOutlet UIButton *button_Mine;
-@property (weak, nonatomic) IBOutlet UIButton *button_Teki;
+@property (weak, nonatomic) IBOutlet UIButton *button_Shikan;
 
-@property (weak, nonatomic) IBOutlet UILabel *label_MineShiro;
-@property (weak, nonatomic) IBOutlet UILabel *label_TekiShiro;
+@property (weak, nonatomic) IBOutlet UILabel *label_ShikanShiro;
 
 @end
 
@@ -42,10 +40,9 @@
 
 	app = [[UIApplication sharedApplication] delegate];
 	
-	self.label_MineShiro.text = [NSString stringWithFormat: @"Mine = %@", app.string_MineShiro];
-	self.label_TekiShiro.text = [NSString stringWithFormat: @"Teki = %@", app.string_TekiShiro];
+	self.label_ShikanShiro.text = [NSString stringWithFormat: @"%@ に", app.string_ShikanShiro];
 	
-	bool_Mine = YES;
+	bool_Shikan = YES;
 	
 }
 
@@ -57,22 +54,13 @@
 
 }
 
-- (IBAction)button_Mine_Action:(id)sender
+- (IBAction)button_Shikan_Action:(id)sender
 {
 
-	bool_Mine = YES;
+	bool_Shikan = YES;
 	
 	[self setBlockNo];
 	
-}
-
-- (IBAction)button_Teki_Action:(id)sender
-{
-	
-	bool_Mine = NO;
-	
-	[self setBlockNo];
-
 }
 
 - (void)setBlockNo
@@ -249,18 +237,12 @@
 								  
 								  shiro = [shiro substringToIndex: j];
 
-								  if ( bool_Mine ) {
+								  if ( bool_Shikan ) {
 									  
-									  app.string_MineShiro = shiro;
+									  app.string_ShikanShiro = shiro;
 
-									  self.label_MineShiro.text = [NSString stringWithFormat: @"Mine = %@", shiro];
+									  self.label_ShikanShiro.text = [NSString stringWithFormat: @"Shikan = %@", shiro];
 									  
-								  } else {
-									  
-									  app.string_TekiShiro = shiro;
-									  
-									  self.label_TekiShiro.text = [NSString stringWithFormat: @"Teki = %@", shiro];
-
 								  }
 								  
 								  [app setShiroData];

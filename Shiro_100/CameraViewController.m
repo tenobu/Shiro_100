@@ -24,6 +24,9 @@
 	[super viewDidLoad];
     // Do any additional setup after loading the view.
 
+	[self.imageView setAutoresizingMask: UIViewAutoresizingFlexibleHeight];
+	[self.imageView      setContentMode: UIViewContentModeScaleAspectFit];
+
 	[NSTimer scheduledTimerWithTimeInterval: 0.1f
 									 target: self
 								   selector: @selector( button_Camera_Action: )
@@ -91,15 +94,23 @@
 didFinishPickingMediaWithInfo: (NSDictionary *)info
 {
 	
-	UIImage *chImage = info [UIImagePickerControllerOriginalImage];
+//	UIImage *chImage = info [UIImagePickerControllerOriginalImage];
+//	
+////	CGImageRef cgRef = chImage.CGImage;
+////	
+////	chImage = [[UIImage alloc] initWithCGImage: cgRef
+////										 scale: 1.0
+////								   orientation: UIImageOrientationUp];
+////	
+////	[self.imageView setImage: chImage];
+//	[self.imageView setImage: chImage];
 	
-	CGImageRef cgRef = chImage.CGImage;
+	self.imageView.image = [info objectForKey: UIImagePickerControllerEditedImage];
+	if ( self.imageView.image == nil ) {
 	
-	chImage = [[UIImage alloc] initWithCGImage: cgRef
-										 scale: 1.0
-								   orientation: UIImageOrientationUp];
+		self.imageView.image = [info objectForKey: UIImagePickerControllerOriginalImage];
 	
-	[self.imageView setImage: chImage];
+	}
 	
 	[picker dismissViewControllerAnimated: YES completion: nil];
 	

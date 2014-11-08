@@ -53,19 +53,11 @@
 
 	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
 	
-	self.string_MineShiro = [ud objectForKey: @"mine_shiro"];
+	self.string_ShikanShiro = [ud objectForKey: @"shikan_shiro"];
 	
-	if ( self.string_MineShiro == nil ) {
+	if ( self.string_ShikanShiro == nil ) {
 		
-		self.string_MineShiro = @"";
-		
-	}
-	
-	self.string_TekiShiro = [ud objectForKey: @"tuki_shiro"];
-	
-	if ( self.string_TekiShiro == nil ) {
-		
-		self.string_TekiShiro = @"";
+		self.string_ShikanShiro = @"徳島城";
 		
 	}
 	
@@ -76,8 +68,7 @@
 
 	NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
 
-	[ud setObject: self.string_MineShiro forKey: @"mine_shiro"];
-	[ud setObject: self.string_TekiShiro forKey: @"tuki_shiro"];
+	[ud setObject: self.string_ShikanShiro forKey: @"shikan_shiro"];
 	
 }
 
